@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="D:\CURSO\Codin\imagens\iconeCSS.png" type="image/x-icon">
+    <title>Cadastro com CSS</title>
+</head>
+<body>
+    <div class="cabecalho">
+        <h1 align="center">Cadastro com CSS</h1>
+    </div>
+    <div>
+        <fieldset>
+            <legend class="cabecalho">Preencha os campos solicitados</legend>
+            <form action="" method="post">
+                <div class="l">
+                    <div class="lab1">
+                        <label for="txtNome">Nome:</label>
+                    </div>
+                    <div class="inp1">
+                        <input type="text" name="txtNome" id="txtNome" required>
+                    </div>
+                    <div class="lab1">
+                        <label for="txtSobrenome">Sobrenome:</label>
+                    </div>
+                    <div class="inp1">
+                        <input type="text" name="txtSobrenome" id="txtSobrenome" required>
+                    </div>
+                </div>
+                <div class="l">
+                    <div class="lab1">
+                        <label for="txtData">Data de nascimento:</label>
+                    </div>
+                    <div class="inp1" align="right">
+                        <input type="date" name="txtData" id="txtData">
+                    </div>
+                    <div class="lab1">
+                        <label for="txtEmail">E-mail:</label>
+                    </div>
+                    <div class="inp1">
+                        <input type="email" name="txtEmail" id="txtEmail" required>
+                    </div>
+                </div>
+                <div class="l">
+                    <div class="lab1">
+                        <label for="txtCpf">CPF:</label>
+                    </div>
+                    <div class="inp1">
+                        <input type="text" name="txtCpf" id="txtCpf" required>
+                    </div>
+                    <div class="lab1">
+                        <label for="txtRg">RG:</label>
+                    </div>
+                    <div class="inp1">
+                        <input type="text" name="txtRg" id="txtRg">
+                    </div>
+                </div>
+                <div class="l">
+                    <div class="lab1">
+                        <label for="txtTelefone1">Telefone:</label>
+                    </div>
+                    <div class="inp1">
+                        <input type="text" name="txtTelefone1" id="txtTelefone1" required>
+                    </div>
+                    <div class="lab1">
+                        <label for="txtTelefone2">Telefone secundário:</label>
+                    </div>
+                    <div class="inp1">
+                        <input type="text" name="txtTelefone2" id="txtTelefone2">
+                    </div>
+                </div>
+                <div class="l" id="EstadoDiv">
+                    <div class="lab1">
+                        <label for="txtEC">Estado Civil:</label>
+                    </div>
+                    <div class="l" id="ec">
+                        <div>
+                            <input type="radio" name="txtEC" id="txtECSolteiro">
+                            <label for="txtECSolteiro">Solteiro(a)</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="txtEC" id="txtECCasado">
+                            <label for="txtECCasado">Casado(a)</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="txtEC" id="txtECSeparado">
+                            <label for="txtECSeparado">Separado(a)/Divorciado(a)</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="txtEC" id="txtECViuvo">
+                            <label for="txtECViuvo">Viúvo(a)</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="l">
+                    <div class="lab1">
+                        <label for="txtMunicípio">Município:</label required>
+                    </div>
+                    <div class="inp1">
+                        <input type="text" name="txtMunicípio" id="txtMunicípio">
+                    </div>
+                    <div class="lab1">
+                        <label for="txtEstado">Estado:</label required>
+                    </div>
+                    <div class="inp1">
+                        <input type="text" name="txtEstado" id="txtEstado">
+                    </div>
+                </div>
+                <div class="botao" align="center">
+                    <input type="submit" value="Cadastrar" class="btn-form-cadastrar">
+                    <input type="reset" value="Cancelar" class="btn-form-cancelar">
+                </div>
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
